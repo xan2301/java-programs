@@ -2,12 +2,12 @@ package org.example.programs.day2;
 
 import java.util.Scanner;
 
-public class SwapNumbers {
+public class SwapNumbers2 {
 
     public static void main(String[] args) {
 
+        int x, y;
 
-        int x, y ,temp;
 
         System.out.println("Enter x and y");
 
@@ -16,20 +16,14 @@ public class SwapNumbers {
         x = in.nextInt();
         y = in.nextInt();
 
-        System.out.println("Before Swapping x = " + x +" y = " + y);
-
-        temp = x;
-        x = y;
-        y = temp;
-
-        System.out.println("After Swapping x = " + x +" y = " + y);
+        System.out.println(" Before x = " + x + " y = " + y);
 
 
+        x = x + y;
+        y = y * x;
 
 
-
+        System.out.println("After  x = " + x + " y = " + y);
 
     }
-
-
 }
