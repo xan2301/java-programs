@@ -1,4 +1,4 @@
-package org.example.programs;
+package org.example.programs.day1;
 
 public class Integers {
 
